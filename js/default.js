@@ -12,7 +12,8 @@ var now = new Date();
 var counter = separate_time(now);
 document.getElementById('countdown').textContent =
  counter[5] + '年' +
- counter[5] + '年' +
- counter[5] + '年' +
- counter[5] + '年' +
- counter[5] + '年' +
+ counter[4] + '月' +
+ counter[3] + '日' +
+ counter[2] + '時' +
+ counter[1] + '分' +
+ counter[0] + '秒' +

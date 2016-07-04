@@ -20,7 +20,7 @@ var hours = time.getHours();
 var days = time.getDate();
 var month = time.getMonth();
 var year = time.getFullYear();
-return[sec,min,hours,days,month,year];
+return[sec,min,hours,days,month,year]
 }
 
 var update = function(){

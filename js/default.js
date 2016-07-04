@@ -23,6 +23,6 @@ document.getElementById('countdown').textContent =
 var refresh = function(){
 setTimeout(update,1000);
 }
-document.getElementById('from').select.onchange = function(){
- location.href = document.getElementById('from').select.value;
+document.getElementById('form').select.onchange = function(){
+ location.href = document.getElementById('form').select.value;
 }
